@@ -6,7 +6,7 @@ Aplicativo Streamlit educativo: Simulação Monte Carlo 1D aplicada a Radioterap
 - Executa uma simulação Monte Carlo 1D (fótons) com transporte simplificado
 - Calcula PDD, métricas (D95, Dmean, Dmax) e DVHs aproximados
 
-IMPORTANTE: este app é estritamente EDUCACIONAL. Não use para decisões clínicas.
+IMPORTANTE: este app é estritamente EDUCACIONAL.
 """
 
 import streamlit as st
@@ -436,4 +436,5 @@ Com base nos resultados obtidos:
 - O DVH mostra que **o tumor recebe a maior parte da dose**, enquanto tecidos saudios permanecem em níveis de baixa exposição.
 
 Essas informações juntas ajudam o físico médico a validar se o planejamento está seguro e eficaz antes da entrega real da radiação.
+
 """)
