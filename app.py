@@ -222,10 +222,10 @@ def compute_metrics_and_dvh(centers, dose_per_bin, ptv_mask, bin_width_cm):
 # Streamlit UI
 # ---------------------------
 
-st.title("Simulação Monte Carlo 1D — Aplicação Educacional em Radioterapia")
+st.title("Simulação Monte Carlo — Aplicação Educacional em Radioterapia")
 st.markdown("""
-Este aplicativo é **educacional**. Ele demonstra, de forma simplificada, como uma simulação Monte Carlo pode ser utilizada
-para estimar distribuição de dose em um phantom 1D baseado em parâmetros do paciente. **NÃO USE** para decisões clínicas.
+Este aplicativo demonstra, de forma simplificada, como uma simulação Monte Carlo pode ser utilizada
+para estimar distribuição de dose em um phantom 1D baseado em parâmetros do paciente.
 """)
 
 # Sidebar - Paciente e Prescrição
@@ -438,3 +438,4 @@ Com base nos resultados obtidos:
 Essas informações juntas ajudam o físico médico a validar se o planejamento está seguro e eficaz antes da entrega real da radiação.
 
 """)
+
